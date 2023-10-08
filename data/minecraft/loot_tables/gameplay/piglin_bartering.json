@@ -246,6 +246,22 @@
             }
           ]
         },
+		{
+          "type": "minecraft:item",
+          "weight": 20,
+          "name": "minecraft:gilded_blackstone",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 4,
+                "max": 8
+              },
+              "add": false
+            }
+          ]
+        }
         {
           "type": "minecraft:item",
           "weight": 20,
